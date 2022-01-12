@@ -4,9 +4,8 @@ var gameState = START;
 var bird, birdImg, boostImg;
 var bg,bgImg;
 
-var hitSound,pointSound,wingSound;
+var hitSound,pointSound;
 var down,up;
-var ig; 
 var up1,down1,up2,down2,up3,down3,up4,down4;
 var wallsGroup, coinsGroup;
 var restartImg,restart;
