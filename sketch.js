@@ -40,7 +40,6 @@ function preload(){
   restartImg = loadImage("restart.png");
   
   hitSound = loadSound("hitSound.mp3");
-  wingSound = loadSound("wing.mp3");
   
   coinImg = loadImage("coin.png");
   coinSound = loadSound("coinSound.wav");
