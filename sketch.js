@@ -48,8 +48,6 @@ function preload(){
   seedImg = loadImage("goldenSeed.png");
   seedSound = loadSound("seed.mp3");
   
-  wingSound = loadSound("wing.mp3");
-  
   flappyFont = loadFont("FlappyBirdFull.ttf");
 }
 
@@ -105,8 +103,6 @@ function draw() {
     
   }else if(gameState===PLAY){
     // to play
-    
-   
     
     restart.visible = false;
     bg.velocityX = -vel;
